@@ -6,12 +6,12 @@ from tornado.escape import json_decode
 
 # 从commons中导入http_response方法
 from common.commons import (
-    http_response,
+  http_response,
 )
 
 # 从配置文件中导入错误码
 from conf.base import (
-    ERROR_CODE,
+  ERROR_CODE,
 )
  
 class RegistHandle(tornado.web.RequestHandler):
